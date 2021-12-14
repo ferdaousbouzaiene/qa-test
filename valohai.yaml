@@ -1,3 +1,6 @@
+- endpoint:
+    name: qa-test
+    image: tensorflow/tensorflow:1.15.0-py3
 - step:
     name: hello
     image: python:3.7
