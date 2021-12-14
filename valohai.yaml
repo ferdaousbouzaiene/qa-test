@@ -1,0 +1,6 @@
+- step:
+    name: hello
+    image: python:3.7
+    command:
+    - pip install -r requirements.txt
+    - python ./train.py {parameters}
